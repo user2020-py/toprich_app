@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP Rich</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="h1 text-center pt-4 mb-5 pb-4">TOP <img src="rich.svg"> persons in the W.O.R.L.D</h1>
+    </header>
+    <div class="container-md">
+        <table class="table table-bordered">
+            <thead>
+                <td>Rank</td>
+                <td>Person</td>
+                <td>Address (country/city)</td>
+                <td>Money (mln)</td>
+            </thead>
+            <tbody>
+                <!-- Table body -->
+            </tbody>
+        </table>
+        <div class="container-fluid loader text-center">
+            <div class="spinner-border text-primary"></div>
+            <span class="text-primary display-6 fw-bold" id="msg">Loading...</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

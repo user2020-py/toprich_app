@@ -1,0 +1,27 @@
+body{
+    background-image: url("money.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    backdrop-filter: blur(10px);
+}
+.table{
+    color: #b7b7b7;
+    background-color: rgba(8, 8, 8, 0.5);
+    user-select: none;
+}
+.table thead, tr{
+    color: #fff;
+}
+td>img{
+    width: 150px;
+    margin-right: 2rem;
+}
+.loader{
+    background-color: rgba(8, 8, 8, 0.08);
+    user-select: none;
+    padding: 0.5rem 0; 
+}
